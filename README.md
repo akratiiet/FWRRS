@@ -19,7 +19,7 @@ In this repository, all contribution presented in the paper Fairness-aware fake 
 
 ### Content
 
-*The proposed fairness aware method for the IBM problem, namely WRRS, found in WRRS.ipynb under the function FWRRS_method.
+* The proposed fairness aware method for the IBM problem, namely WRRS, found in WRRS.ipynb under the function FWRRS_method.
   This can be utilized to generate a positive seed S_P to block the propagation of some information a seed S_N will be spreading using COICM (Campaign Oblivious Independent cascade model) in
   the inputted network, while maximizing the fairness of the intervention of S_P against the information of S_N across the communities 
   present in such network.
@@ -34,7 +34,7 @@ In this repository, all contribution presented in the paper Fairness-aware fake 
 * Extensions for existing methods, to achieve higher fairness.
   First is Parity seeding, which was adapted for the IBM problem, as it was originally designed for the IM problem. The input similar to FWWRS consists of G, S_N, k and partition. This can be found in Parity_seeding_IBM.ipynb by calling parity_seeding_IBM
   Second is Fair_CMIA-O defined in Fair_CMIA-O.ipynb in the function CMIA_O_fair_new. The only additional input compared to parity seeding is a threshold used to determine if a path in the generated MIIAs should be explored.
-*The HICH-BA model, defined in HICH-BA.ipynb called in the function hichba. Used to generate social networks with specified characteristics such as community sizes, clustering coefficient, etc. 
+* The HICH-BA model, defined in HICH-BA.ipynb called in the function hichba. Used to generate social networks with specified characteristics such as community sizes, clustering coefficient, etc. 
   This model uses the following parameters: 
     (i) n, i.e., the desired number of nodes,
     (ii) p_N, i.e., the probability of adding a node to the graph, with probability 1 − pN an edge is added,
