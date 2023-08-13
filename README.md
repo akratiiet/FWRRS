@@ -49,6 +49,5 @@ In this repository, all contribution presented in the paper Fairness-aware fake 
 Critina Gutierrez Bierbooms
 cgubierbooms@gmail.com
 
-Akrati Saxena 
-a.saxena@liacs.leidenuniv.nl
+If you use this code, please cite our paper titled "Fairness-aware Fake News Mitigation using Counter Information Propagation".
 
