@@ -19,10 +19,8 @@ In this repository, all contribution presented in the paper Fairness-aware fake 
 
 ### Content
 
-* The proposed fairness aware method for the IBM problem, namely WRRS, found in WRRS.ipynb under the function FWRRS_method.
-  This can be utilized to generate a positive seed S_P to block the propagation of some information a seed S_N will be spreading using COICM (Campaign Oblivious Independent cascade model) in
-  the inputted network, while maximizing the fairness of the intervention of S_P against the information of S_N across the communities 
-  present in such network.
+* The proposed fairness aware method for the IBM problem, namely FWRRS, found in WRRS.ipynb under the function FWRRS_method.
+  This can be utilized to generate a positive seed S_P to block the propagation of some information a seed S_N will be spreading using COICM (Campaign Oblivious Independent cascade model) in the inputted network, while maximizing the fairness of the intervention of S_P against the information of S_N across the communities present in such network.
   The input consists then of:
     - A network G(V, E), this shall be defined using networkx in python.
     - A set S_N of node in G, this will spread the information which shall be blocked.
